@@ -1,0 +1,55 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.counter__btn {
+  display: inline-block;
+  height: 5vh;
+  width: 10vw;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.counter__btn--increment {
+  background-color: #008000;
+  color: #000;
+}
+
+.counter__btn--decrement {
+  background-color: #ff0000;
+}
+
+.counter__display {
+  margin: 0 5px;
+  height: 3vh;
+  width: 10vw;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.display-list {
+  margin: 5px;
+  padding: 10px;
+  list-style-type: none;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
