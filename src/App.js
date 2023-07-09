@@ -85,7 +85,6 @@ class App extends Component {
         <div>
           <h4>Odd numbers: </h4>
           <li className="display-list">
-            {console.log(this.state.oddNumberList)}
             {this.state.oddNumberList.length
               ? this.state.oddNumberList.join(', ')
               : '-'}
